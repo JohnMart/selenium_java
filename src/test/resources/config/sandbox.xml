@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sandbox" parallel="classes" verbose="10">
+  <parameter name="browser" value="chrome" />
+  <test name="sandbox testing">
+    <classes>
+    <!--
+      <class name="exercise.set.two.Departments" />
+      <class name="exercise.set.two.Titles" />
+      <class name="exercise.set.two.Login" />
+      -->
+      <class name="exercise.set.two.Employees" />
+    </classes>
+  </test>
+</suite>
